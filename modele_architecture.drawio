@@ -22,13 +22,13 @@
         <mxCell id="K_gAuLsXy9iQtgz8dyDz-5" value="latent space" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="260" y="-652.5" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="K_gAuLsXy9iQtgz8dyDz-6" value="unsupervised discriminator" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="K_gAuLsXy9iQtgz8dyDz-6" value="feedback discriminator" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="560" y="-760" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K_gAuLsXy9iQtgz8dyDz-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K_gAuLsXy9iQtgz8dyDz-9" target="K_gAuLsXy9iQtgz8dyDz-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="K_gAuLsXy9iQtgz8dyDz-7" value="supervosed discriminator(RL agent)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="K_gAuLsXy9iQtgz8dyDz-7" value="RL agent(IDS)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="560" y="-580" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K_gAuLsXy9iQtgz8dyDz-8" value="random vector" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
