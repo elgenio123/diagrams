@@ -10,7 +10,7 @@
         <mxCell id="K_gAuLsXy9iQtgz8dyDz-15" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="520" y="-800" width="200" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="K_gAuLsXy9iQtgz8dyDz-2" value="attack database" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="K_gAuLsXy9iQtgz8dyDz-2" value="traffic database" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="10" y="-660" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K_gAuLsXy9iQtgz8dyDz-3" value="encoder" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=south;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
