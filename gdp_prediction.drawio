@@ -16,6 +16,9 @@
         <mxCell id="WdHeQMochMUsHgBH3z90-5" value="random vector" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
           <mxGeometry x="120" y="300" width="120" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="WdHeQMochMUsHgBH3z90-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WdHeQMochMUsHgBH3z90-6" target="WdHeQMochMUsHgBH3z90-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="WdHeQMochMUsHgBH3z90-6" value="imputed dataset" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
           <mxGeometry x="530" y="180" width="60" height="80" as="geometry" />
         </mxCell>
@@ -75,7 +78,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="WdHeQMochMUsHgBH3z90-14" value="EDA and statistical-based feature selection&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
-          <mxGeometry x="670" y="210" width="120" height="60" as="geometry" />
+          <mxGeometry x="670" y="200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WdHeQMochMUsHgBH3z90-15" value="train set" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
           <mxGeometry x="294" y="390" width="120" height="60" as="geometry" />
@@ -88,6 +91,25 @@
         </mxCell>
         <mxCell id="WdHeQMochMUsHgBH3z90-18" value="model evaluation" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
           <mxGeometry x="470" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WdHeQMochMUsHgBH3z90-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.425;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="WdHeQMochMUsHgBH3z90-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="260" as="sourcePoint" />
+            <mxPoint x="770" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="720" y="320" />
+              <mxPoint x="521" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WdHeQMochMUsHgBH3z90-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.692;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="WdHeQMochMUsHgBH3z90-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="320" as="sourcePoint" />
+            <mxPoint x="520" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="377" y="320" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
