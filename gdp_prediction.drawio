@@ -80,17 +80,31 @@
         <mxCell id="WdHeQMochMUsHgBH3z90-14" value="EDA and statistical-based feature selection&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
           <mxGeometry x="670" y="200" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WdHeQMochMUsHgBH3z90-15" value="train set" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
+        <mxCell id="WdHeQMochMUsHgBH3z90-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WdHeQMochMUsHgBH3z90-15" target="WdHeQMochMUsHgBH3z90-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WdHeQMochMUsHgBH3z90-15" value="train set" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
           <mxGeometry x="294" y="390" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WdHeQMochMUsHgBH3z90-16" value="test set" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
+        <mxCell id="WdHeQMochMUsHgBH3z90-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WdHeQMochMUsHgBH3z90-16" target="WdHeQMochMUsHgBH3z90-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WdHeQMochMUsHgBH3z90-16" value="test set" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
           <mxGeometry x="470" y="390" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="WdHeQMochMUsHgBH3z90-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WdHeQMochMUsHgBH3z90-17" target="WdHeQMochMUsHgBH3z90-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WdHeQMochMUsHgBH3z90-26" value="trained model&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WdHeQMochMUsHgBH3z90-25">
+          <mxGeometry x="-0.08" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="WdHeQMochMUsHgBH3z90-17" value="model train" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
-          <mxGeometry x="300" y="490" width="120" height="60" as="geometry" />
+          <mxGeometry x="280" y="490" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WdHeQMochMUsHgBH3z90-18" value="model evaluation" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
-          <mxGeometry x="470" y="490" width="120" height="60" as="geometry" />
+          <mxGeometry x="500" y="490" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WdHeQMochMUsHgBH3z90-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.425;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="WdHeQMochMUsHgBH3z90-16">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -100,6 +114,11 @@
               <mxPoint x="720" y="320" />
               <mxPoint x="521" y="320" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WdHeQMochMUsHgBH3z90-22" value="dataset spliting" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WdHeQMochMUsHgBH3z90-20">
+          <mxGeometry x="-0.2948" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WdHeQMochMUsHgBH3z90-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.692;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="WdHeQMochMUsHgBH3z90-15">
