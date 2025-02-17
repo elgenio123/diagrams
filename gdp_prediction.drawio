@@ -4,22 +4,22 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="WdHeQMochMUsHgBH3z90-2" value="dataset" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+        <mxCell id="WdHeQMochMUsHgBH3z90-2" value="Dataset" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
           <mxGeometry x="60" y="170" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="WdHeQMochMUsHgBH3z90-3" value="generator" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+        <mxCell id="WdHeQMochMUsHgBH3z90-3" value="Generator" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
           <mxGeometry x="280" y="260" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WdHeQMochMUsHgBH3z90-4" value="discriminator" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+        <mxCell id="WdHeQMochMUsHgBH3z90-4" value="Discriminator" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
           <mxGeometry x="280" y="140" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WdHeQMochMUsHgBH3z90-5" value="random vector" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+        <mxCell id="WdHeQMochMUsHgBH3z90-5" value="Random vector" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
           <mxGeometry x="120" y="300" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="WdHeQMochMUsHgBH3z90-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WdHeQMochMUsHgBH3z90-6" target="WdHeQMochMUsHgBH3z90-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WdHeQMochMUsHgBH3z90-6" value="imputed dataset" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+        <mxCell id="WdHeQMochMUsHgBH3z90-6" value="Imputed dataset" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
           <mxGeometry x="530" y="180" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="WdHeQMochMUsHgBH3z90-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
@@ -83,13 +83,13 @@
         <mxCell id="WdHeQMochMUsHgBH3z90-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WdHeQMochMUsHgBH3z90-15" target="WdHeQMochMUsHgBH3z90-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WdHeQMochMUsHgBH3z90-15" value="train set" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+        <mxCell id="WdHeQMochMUsHgBH3z90-15" value="Train set" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
           <mxGeometry x="294" y="390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WdHeQMochMUsHgBH3z90-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WdHeQMochMUsHgBH3z90-16" target="WdHeQMochMUsHgBH3z90-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WdHeQMochMUsHgBH3z90-16" value="test set" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+        <mxCell id="WdHeQMochMUsHgBH3z90-16" value="Test set" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
           <mxGeometry x="470" y="390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WdHeQMochMUsHgBH3z90-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WdHeQMochMUsHgBH3z90-17" target="WdHeQMochMUsHgBH3z90-18">
@@ -100,10 +100,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WdHeQMochMUsHgBH3z90-17" value="model train" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
+        <mxCell id="WdHeQMochMUsHgBH3z90-17" value="Model train" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
           <mxGeometry x="280" y="490" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WdHeQMochMUsHgBH3z90-18" value="model evaluation" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
+        <mxCell id="WdHeQMochMUsHgBH3z90-18" value="Model evaluation" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
           <mxGeometry x="500" y="490" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WdHeQMochMUsHgBH3z90-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.425;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="WdHeQMochMUsHgBH3z90-16">
