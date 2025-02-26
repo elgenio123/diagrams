@@ -1,249 +1,270 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.14">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="880" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-
-        <!-- Scénario 1 : Achat d’un Produit -->
-        <mxCell id="scenario1" value="Achat d’un Produit" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="40" width="360" height="30" as="geometry" />
+        <mxCell id="scenario1" value="Achat d’un Produit" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="80" y="40" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="client1" value="Client" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="client1" value="Client" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="40" y="80" width="100" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="vendeur1" value="Agent Vendeur" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="vendeur1" value="Agent Vendeur" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="160" y="80" width="100" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="paiement1" value="Agent Paiement" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="paiement1" value="Agent Paiement" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="280" y="80" width="100" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="logistique1" value="Agent Logistique" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="logistique1" value="Agent Logistique" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="400" y="80" width="100" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="req1" value="sélectionne un produit" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;entryX=0.5;entryY=0.294;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="client1" target="vendeur1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="100" y="120" as="sourcePoint" />
+        <mxCell id="req1" value="sélectionne un produit" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" edge="1">
+          <mxGeometry x="0.2857" y="-10" relative="1" as="geometry">
+            <mxPoint x="50" y="120" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="185" y="120" />
+              <mxPoint x="105.5" y="120" />
             </Array>
-            <mxPoint x="260" y="120" as="targetPoint" />
+            <mxPoint x="130" y="180" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="resp1" value="vérifie la disponibilité" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="vendeur1" target="client1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="200" y="150" as="sourcePoint" />
+        <mxCell id="resp1" value="vérifie la disponibilité&lt;div&gt;et notifie le client&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" edge="1">
+          <mxGeometry x="0.195" y="20" relative="1" as="geometry">
+            <mxPoint x="209.5" y="280" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="185" y="150" />
+              <mxPoint x="185" y="200" />
             </Array>
-            <mxPoint x="100" y="150" as="targetPoint" />
+            <mxPoint x="89.5" y="200" as="targetPoint" />
+            <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cmd1" value="passe commande" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="client1" target="paiement1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="100" y="180" as="sourcePoint" />
+        <mxCell id="cmd1" value="passe commande" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" edge="1">
+          <mxGeometry x="-0.0833" relative="1" as="geometry">
+            <mxPoint x="90" y="240" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="185" y="180" />
+              <mxPoint x="185.5" y="240" />
             </Array>
-            <mxPoint x="260" y="180" as="targetPoint" />
+            <mxPoint x="330" y="240" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="val1" value="valide la transaction" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="paiement1" target="vendeur1">
+        <mxCell id="val1" value="valide la transaction" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="300" y="210" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="285" y="210" />
-            </Array>
-            <mxPoint x="200" y="210" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="notif1" value="notifie le client" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1" source="paiement1" target="client1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="300" y="240" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="285" y="240" />
-            </Array>
-            <mxPoint x="100" y="240" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="prep1" value="prépare l'expédition" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="vendeur1" target="logistique1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="200" y="270" as="sourcePoint" />
+            <mxPoint x="329.5" y="290" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="285" y="270" />
             </Array>
-            <mxPoint x="360" y="270" as="targetPoint" />
+            <mxPoint x="210" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-
-        <!-- Scénario 2 : Livraison d’un Produit -->
-        <mxCell id="scenario2" value="Livraison d’un Produit" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="440" y="40" width="360" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="client2" value="Client" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="440" y="80" width="100" height="300" as="geometry" />
-        </mxCell>
-        <mxCell id="vendeur2" value="Agent Vendeur" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="560" y="80" width="100" height="300" as="geometry" />
-        </mxCell>
-        <mxCell id="logistique2" value="Agent Logistique" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="680" y="80" width="100" height="300" as="geometry" />
-        </mxCell>
-        <mxCell id="req2" value="fournit l'adresse de livraison" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;entryX=0.5;entryY=0.294;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="client2" target="vendeur2">
+        <mxCell id="notif1" value="notifie le client" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" target="client1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="500" y="120" as="sourcePoint" />
+            <mxPoint x="330" y="320" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="585" y="120" />
+              <mxPoint x="285.5" y="320" />
             </Array>
-            <mxPoint x="660" y="120" as="targetPoint" />
+            <mxPoint x="90" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="trans2" value="transmet les informations de livraison" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="vendeur2" target="logistique2">
+        <mxCell id="prep1" value="prépare l&#39;expédition" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="600" y="150" as="sourcePoint" />
+            <mxPoint x="210" y="360" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="685" y="150" />
+              <mxPoint x="285.5" y="360" />
             </Array>
-            <mxPoint x="760" y="150" as="targetPoint" />
+            <mxPoint x="450" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="prep2" value="prépare l'expédition" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1" source="logistique2" target="vendeur2">
+        <mxCell id="scenario2" value="Livraison d’un Produit" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="480" y="40" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="client2" value="Client" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="530" y="80" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="vendeur2" value="Agent Vendeur" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="660" y="80" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="logistique2" value="Agent Logistique" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="780" y="80" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="req2" value="fournit l&#39;adresse de livraison" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;entryX=0.5;entryY=0.294;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" edge="1">
+          <mxGeometry x="-0.211" y="-30" relative="1" as="geometry">
+            <mxPoint x="579.5" y="160" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="585" y="160" />
+            </Array>
+            <mxPoint x="710" y="208.20000000000005" as="targetPoint" />
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="trans2" value="transmet les informations de livraison" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="700" y="180" as="sourcePoint" />
+            <mxPoint x="709.5" y="260" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="685" y="180" />
+              <mxPoint x="770" y="260" />
             </Array>
-            <mxPoint x="600" y="180" as="targetPoint" />
+            <mxPoint x="829.5" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="liv2" value="organise la livraison" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1" source="logistique2" target="client2">
+        <mxCell id="prep2" value="prépare l&#39;expédition" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" target="vendeur2" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="700" y="210" as="sourcePoint" />
+            <mxPoint x="830" y="310" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="685" y="210" />
+              <mxPoint x="685" y="310" />
             </Array>
-            <mxPoint x="500" y="210" as="targetPoint" />
+            <mxPoint x="710" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-
-        <!-- Scénario 3 : Retour d’un Produit -->
-        <mxCell id="scenario3" value="Retour d’un Produit" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="400" width="360" height="30" as="geometry" />
+        <mxCell id="liv2" value="organise la livraison" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" source="vendeur2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="829.5" y="229.5" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="685" y="229.5" />
+            </Array>
+            <mxPoint x="579.5" y="229.5" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="client3" value="Client" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="scenario3" value="Retour d’un Produit" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="80" y="400" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="client3" value="Client" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="40" y="440" width="100" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="vendeur3" value="Agent Vendeur" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="vendeur3" value="Agent Vendeur" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="160" y="440" width="100" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="logistique3" value="Agent Logistique" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="logistique3" value="Agent Logistique" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="280" y="440" width="100" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="paiement3" value="Agent Paiement" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="paiement3" value="Agent Paiement" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="400" y="440" width="100" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="req3" value="initie une demande de retour" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;entryX=0.5;entryY=0.294;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="client3" target="vendeur3">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="100" y="480" as="sourcePoint" />
+        <mxCell id="req3" value="initie une demande de retour" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;entryX=0.5;entryY=0.294;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" edge="1">
+          <mxGeometry x="-0.1701" y="2" relative="1" as="geometry">
+            <mxPoint x="90" y="502" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="185" y="480" />
+              <mxPoint x="220" y="502" />
             </Array>
-            <mxPoint x="260" y="480" as="targetPoint" />
+            <mxPoint x="210.5" y="550.2" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eval3" value="évalue les conditions de retour" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="vendeur3" target="client3">
+        <mxCell id="eval3" value="évalue les conditions de retour" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="200" y="510" as="sourcePoint" />
+            <mxPoint x="330" y="610" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="185" y="510" />
+              <mxPoint x="270" y="610" />
             </Array>
-            <mxPoint x="100" y="510" as="targetPoint" />
+            <mxPoint x="210" y="610" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bon3" value="fournit un bon de retour" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="vendeur3" target="client3">
+        <mxCell id="bon3" value="fournit un bon de retour" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="200" y="540" as="sourcePoint" />
+            <mxPoint x="210" y="660" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="185" y="540" />
+              <mxPoint x="185" y="660" />
             </Array>
-            <mxPoint x="100" y="540" as="targetPoint" />
+            <mxPoint x="89.5" y="660" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="exp3" value="expédie le produit retourné" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="client3" target="logistique3">
+        <mxCell id="exp3" value="expédie le produit retourné" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" source="client3" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="100" y="570" as="sourcePoint" />
+            <mxPoint x="100" y="550" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="185" y="570" />
+              <mxPoint x="195.5" y="550" />
             </Array>
-            <mxPoint x="260" y="570" as="targetPoint" />
+            <mxPoint x="330" y="550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rec3" value="reçoit le produit retourné" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1" source="logistique3" target="vendeur3">
+        <mxCell id="rec3" value="reçoit le produit retourné" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="300" y="600" as="sourcePoint" />
+            <mxPoint x="329.5" y="570" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="285" y="600" />
+              <mxPoint x="285" y="580" />
             </Array>
-            <mxPoint x="200" y="600" as="targetPoint" />
+            <mxPoint x="210" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="remb3" value="initie le remboursement" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="vendeur3" target="paiement3">
+        <mxCell id="remb3" value="initie le remboursement" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="200" y="630" as="sourcePoint" />
+            <mxPoint x="210" y="680" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="285" y="630" />
+              <mxPoint x="285.5" y="680" />
             </Array>
-            <mxPoint x="360" y="630" as="targetPoint" />
+            <mxPoint x="450" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-
-        <!-- Scénario 4 : Suivi de Commande -->
-        <mxCell id="scenario4" value="Suivi de Commande" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="440" y="400" width="360" height="30" as="geometry" />
+        <mxCell id="scenario4" value="Suivi de Commande" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="480" y="400" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="client4" value="Client" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="440" y="440" width="100" height="300" as="geometry" />
+        <mxCell id="client4" value="Client" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="510" y="440" width="100" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="vendeur4" value="Agent Vendeur" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="560" y="440" width="100" height="300" as="geometry" />
+        <mxCell id="vendeur4" value="Agent Vendeur" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="630" y="440" width="100" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="logistique4" value="Agent Logistique" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="680" y="440" width="100" height="300" as="geometry" />
+        <mxCell id="logistique4" value="Agent Logistique" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="750" y="440" width="100" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="req4" value="consulte le statut de la commande" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;entryX=0.5;entryY=0.294;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="client4" target="vendeur4">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="500" y="480" as="sourcePoint" />
+        <mxCell id="req4" value="consulte le statut de la commande" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" edge="1">
+          <mxGeometry x="-0.7599" y="-20" relative="1" as="geometry">
+            <mxPoint x="559.75" y="500" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="585" y="480" />
+              <mxPoint x="585.25" y="500" />
             </Array>
-            <mxPoint x="660" y="480" as="targetPoint" />
+            <mxPoint x="680" y="530" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="stat4" value="met à jour le statut" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="vendeur4" target="client4">
+        <mxCell id="stat4" value="met à jour le statut" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="600" y="510" as="sourcePoint" />
+            <mxPoint x="680" y="610" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="585" y="510" />
+              <mxPoint x="620" y="610" />
             </Array>
-            <mxPoint x="500" y="510" as="targetPoint" />
+            <mxPoint x="560" y="610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="com4" value="communique le statut" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1" source="logistique4" target="vendeur4">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="700" y="540" as="sourcePoint" />
+        <mxCell id="com4" value="communique le statut" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" edge="1">
+          <mxGeometry y="20" relative="1" as="geometry">
+            <mxPoint x="800" y="580" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="685" y="540" />
+              <mxPoint x="750" y="580" />
             </Array>
-            <mxPoint x="600" y="540" as="targetPoint" />
+            <mxPoint x="680" y="580" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="notif4" value="reçoit des notifications" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1" source="vendeur4" target="client4">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="600" y="570" as="sourcePoint" />
+        <mxCell id="notif4" value="reçoit des notifications" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" edge="1">
+          <mxGeometry x="-0.3417" relative="1" as="geometry">
+            <mxPoint x="680" y="650" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="585" y="570" />
+              <mxPoint x="585.5" y="650" />
             </Array>
-            <mxPoint x="500" y="570" as="targetPoint" />
+            <mxPoint x="560" y="650" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5GQthFCnKHRDuteECxYl-1" value="demande du produit" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;entryX=0.5;entryY=0.233;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0833" relative="1" as="geometry">
+            <mxPoint x="130" y="180.1" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="225.5" y="180.1" />
+            </Array>
+            <mxPoint x="210" y="169.99999999999997" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5GQthFCnKHRDuteECxYl-2" value="demande du statut" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1">
+          <mxGeometry x="0.0041" y="-24" relative="1" as="geometry">
+            <mxPoint x="679.5" y="526" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="705" y="526" />
+            </Array>
+            <mxPoint x="800" y="526" as="targetPoint" />
+            <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
