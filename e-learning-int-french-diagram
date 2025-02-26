@@ -1,0 +1,218 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.14">
+  <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
+    <mxGraphModel dx="880" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-1" value="Agent Apprenant&nbsp;<div>&nbsp;</div>" style="..." parent="1" vertex="1">
+          <mxGeometry x="40" y="40" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-3" value="initier l'apprentissage" style="..." parent="aM9ryv3xv72pqoxQDRHE-1" target="aM9ryv3xv72pqoxQDRHE-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-15" y="70" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-5" value="Agent de Contenu<div>&nbsp;</div>" style="..." parent="1" vertex="1">
+          <mxGeometry x="200" y="40" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-7" value="demande une ressource d'apprentissage" style="..." parent="1" target="aM9ryv3xv72pqoxQDRHE-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="170" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="185" y="170" />
+            </Array>
+            <mxPoint x="260" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-8" value="recevoir le contenu" style="..." parent="1" source="aM9ryv3xv72pqoxQDRHE-6" target="aM9ryv3xv72pqoxQDRHE-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="195" y="205" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="190" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-5zOkG9ArIua7RHwAJ0f-1" value="Base de Données" style="..." vertex="1" parent="1">
+          <mxGeometry x="360" y="40" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="-5zOkG9ArIua7RHwAJ0f-4" value="récupère la ressource" style="..." edge="1" parent="1" source="aM9ryv3xv72pqoxQDRHE-6" target="-5zOkG9ArIua7RHwAJ0f-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="200" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="355" y="200" />
+            </Array>
+            <mxPoint x="400" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-5zOkG9ArIua7RHwAJ0f-5" value="envoyer les données" style="..." edge="1" parent="1" target="aM9ryv3xv72pqoxQDRHE-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="240" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="370" y="240" />
+            </Array>
+            <mxPoint x="275" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-5zOkG9ArIua7RHwAJ0f-8" value="Demande de ressource d'apprentissage" style="..." vertex="1" parent="1">
+          <mxGeometry x="80" width="240" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-5zOkG9ArIua7RHwAJ0f-9" value="L'apprenant demande de l'aide" style="..." vertex="1" parent="1">
+          <mxGeometry x="540" width="240" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-5zOkG9ArIua7RHwAJ0f-12" value="Agent Apprenant&nbsp;<div>&nbsp;</div>" style="..." vertex="1" parent="1">
+          <mxGeometry x="500" y="40" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="-5zOkG9ArIua7RHwAJ0f-14" value="demande d'aide" style="..." edge="1" parent="-5zOkG9ArIua7RHwAJ0f-12" target="-5zOkG9ArIua7RHwAJ0f-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-15" y="70" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-5zOkG9ArIua7RHwAJ0f-16" value="Agent Tuteur&nbsp;<div>&nbsp;</div>" style="..." vertex="1" parent="1">
+          <mxGeometry x="640" y="40" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="-5zOkG9ArIua7RHwAJ0f-18" value="Tuteur" style="..." vertex="1" parent="1">
+          <mxGeometry x="770" y="40" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="-5zOkG9ArIua7RHwAJ0f-20" value="trouver un tuteur" style="..." edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="170" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="635" y="170" />
+            </Array>
+            <mxPoint x="685" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-5zOkG9ArIua7RHwAJ0f-21" value="notifier le tuteur" style="..." edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="695" y="200" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="795" y="200" />
+            </Array>
+            <mxPoint x="815" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-5zOkG9ArIua7RHwAJ0f-22" value="tuteur prêt" style="..." edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="835" y="240" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="805" y="240" />
+            </Array>
+            <mxPoint x="690" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-5zOkG9ArIua7RHwAJ0f-23" value="aide fournie" style="..." edge="1" parent="1" target="-5zOkG9ArIua7RHwAJ0f-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="645" y="280" />
+            </Array>
+            <mxPoint x="680" y="280" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-5zOkG9ArIua7RHwAJ0f-24" value="Passer un test" style="..." vertex="1" parent="1">
+          <mxGeometry x="305" y="360" width="240" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-5zOkG9ArIua7RHwAJ0f-25" value="Apprenant<span style='background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));'>&nbsp;</span>" style="..." vertex="1" parent="1">
+          <mxGeometry x="200" y="400" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="-5zOkG9ArIua7RHwAJ0f-27" value="initier une demande de test" style="..." edge="1" parent="-5zOkG9ArIua7RHwAJ0f-25" target="-5zOkG9ArIua7RHwAJ0f-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-15" y="70" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-5zOkG9ArIua7RHwAJ0f-29" value="Agent Apprenant<div>&nbsp;</div>" style="..." vertex="1" parent="1">
+          <mxGeometry x="360" y="400" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="-5zOkG9ArIua7RHwAJ0f-31" value="Agent d'Évaluation&nbsp;<div>&nbsp;</div>" style="..." vertex="1" parent="1">
+          <mxGeometry x="540" y="400" width="100" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="-5zOkG9ArIua7RHwAJ0f-33" value="demander un test" style="..." edge="1" parent="1" target="-5zOkG9ArIua7RHwAJ0f-30">
+          <mxGeometry x="-0.0345" relative="1" as="geometry">
+            <mxPoint x="260" y="500" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="345" y="500" />
+            </Array>
+            <mxPoint x="400" y="500" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-5zOkG9ArIua7RHwAJ0f-34" value="transférer la demande" style="..." edge="1" parent="1" target="-5zOkG9ArIua7RHwAJ0f-31">
+          <mxGeometry x="-0.0345" relative="1" as="geometry">
+            <mxPoint x="420" y="510" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="505" y="510" />
+            </Array>
+            <mxPoint x="565" y="510" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-5zOkG9ArIua7RHwAJ0f-37" value="préparer le test" style="..." vertex="1" connectable="0" parent="-5zOkG9ArIua7RHwAJ0f-36">
+          <mxGeometry x="-0.1267" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-5zOkG9ArIua7RHwAJ0f-38" value="fournir le test" style="..." edge="1" parent="1" target="-5zOkG9ArIua7RHwAJ0f-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="550" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="565" y="550" />
+            </Array>
+            <mxPoint x="450" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-5zOkG9ArIua7RHwAJ0f-39" value="fournir le test" style="..." edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="580" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="415" y="580" />
+            </Array>
+            <mxPoint x="260" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-5zOkG9ArIua7RHwAJ0f-40" value="soumettre les réponses" style="..." edge="1" parent="1">
+          <mxGeometry x="-0.0345" relative="1" as="geometry">
+            <mxPoint x="260" y="600" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="345" y="600" />
+            </Array>
+            <mxPoint x="405" y="600" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-5zOkG9ArIua7RHwAJ0f-41" value="transférer les réponses" style="..." edge="1" parent="1" target="-5zOkG9ArIua7RHwAJ0f-32">
+          <mxGeometry x="-0.0345" relative="1" as="geometry">
+            <mxPoint x="410" y="620" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="495" y="620" />
+            </Array>
+            <mxPoint x="580" y="620" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-5zOkG9ArIua7RHwAJ0f-43" value="corriger et noter le test" style="..." vertex="1" connectable="0" parent="-5zOkG9ArIua7RHwAJ0f-42">
+          <mxGeometry x="-0.1267" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-5zOkG9ArIua7RHwAJ0f-44" value="fournir un retour" style="..." edge="1" parent="1" target="-5zOkG9ArIua7RHwAJ0f-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="640" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="565" y="640" />
+            </Array>
+            <mxPoint x="420" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-5zOkG9ArIua7RHwAJ0f-45" value="recevoir un retour" style="..." edge="1" parent="1" target="-5zOkG9ArIua7RHwAJ0f-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="405" y="650" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="390" y="650" />
+            </Array>
+            <mxPoint x="270" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
