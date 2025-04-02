@@ -7,23 +7,31 @@
         <mxCell id="1" parent="0"/>
         
         <!-- GAN Components -->
-        <mxCell id="2" value="Generator" style="rounded=1;fillColor=#FFA07A;" vertex="1" parent="1">
-          <mxGeometry x="100" y="100" width="100" height="50" as="geometry"/>
+        <mxCell id="2" value="Noise Input" style="ellipse;fillColor=#D3D3D3;" vertex="1" parent="1">
+          <mxGeometry x="50" y="100" width="80" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="3" value="Discriminator" style="rounded=1;fillColor=#20B2AA;" vertex="1" parent="1">
+        <mxCell id="3" value="Generator" style="rounded=1;fillColor=#FFA07A;" vertex="1" parent="1">
+          <mxGeometry x="150" y="100" width="120" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="4" value="Fake Data" style="rounded=1;fillColor=#FFD700;" vertex="1" parent="1">
           <mxGeometry x="300" y="100" width="100" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="4" value="Adversarial Attacks" style="rounded=1;fillColor=#FFD700;" vertex="1" parent="1">
-          <mxGeometry x="500" y="100" width="120" height="50" as="geometry"/>
+        <mxCell id="5" value="Real Data" style="rounded=1;fillColor=#90EE90;" vertex="1" parent="1">
+          <mxGeometry x="300" y="200" width="100" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="6" value="Discriminator" style="rounded=1;fillColor=#20B2AA;" vertex="1" parent="1">
+          <mxGeometry x="450" y="150" width="120" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="7" value="Adversarial Attacks" style="rounded=1;fillColor=#FF4500;" vertex="1" parent="1">
+          <mxGeometry x="650" y="150" width="140" height="50" as="geometry"/>
         </mxCell>
         
         <!-- Arrows -->
-        <mxCell id="5" edge="1" parent="1" source="2" target="3" style="edgeStyle=elbowEdgeStyle;rounded=1;">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="6" edge="1" parent="1" source="3" target="4" style="edgeStyle=elbowEdgeStyle;rounded=1;">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
+        <mxCell id="8" edge="1" parent="1" source="2" target="3" style="edgeStyle=elbowEdgeStyle;rounded=1;"/>
+        <mxCell id="9" edge="1" parent="1" source="3" target="4" style="edgeStyle=elbowEdgeStyle;rounded=1;"/>
+        <mxCell id="10" edge="1" parent="1" source="5" target="6" style="edgeStyle=elbowEdgeStyle;rounded=1;"/>
+        <mxCell id="11" edge="1" parent="1" source="4" target="6" style="edgeStyle=elbowEdgeStyle;rounded=1;"/>
+        <mxCell id="12" edge="1" parent="1" source="6" target="7" style="edgeStyle=elbowEdgeStyle;rounded=1;"/>
       </root>
     </mxGraphModel>
   </diagram>
@@ -35,17 +43,27 @@
         <mxCell id="1" parent="0"/>
         
         <!-- RL Agent and IDS -->
-        <mxCell id="7" value="Reinforcement Learning Agent" style="rounded=1;fillColor=#6495ED;" vertex="1" parent="1">
-          <mxGeometry x="100" y="250" width="180" height="50" as="geometry"/>
+        <mxCell id="13" value="IoT Network Traffic" style="rounded=1;fillColor=#F0E68C;" vertex="1" parent="1">
+          <mxGeometry x="50" y="250" width="160" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="8" value="Intrusion Detection System" style="rounded=1;fillColor=#FF6347;" vertex="1" parent="1">
-          <mxGeometry x="400" y="250" width="200" height="50" as="geometry"/>
+        <mxCell id="14" value="Feature Extraction" style="rounded=1;fillColor=#DAA520;" vertex="1" parent="1">
+          <mxGeometry x="250" y="250" width="160" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="15" value="Reinforcement Learning Agent" style="rounded=1;fillColor=#6495ED;" vertex="1" parent="1">
+          <mxGeometry x="450" y="250" width="200" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="16" value="Intrusion Detection System" style="rounded=1;fillColor=#FF6347;" vertex="1" parent="1">
+          <mxGeometry x="700" y="250" width="200" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="17" value="Threat Response" style="rounded=1;fillColor=#32CD32;" vertex="1" parent="1">
+          <mxGeometry x="950" y="250" width="160" height="50" as="geometry"/>
         </mxCell>
         
         <!-- Arrows -->
-        <mxCell id="9" edge="1" parent="1" source="7" target="8" style="edgeStyle=elbowEdgeStyle;rounded=1;">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
+        <mxCell id="18" edge="1" parent="1" source="13" target="14" style="edgeStyle=elbowEdgeStyle;rounded=1;"/>
+        <mxCell id="19" edge="1" parent="1" source="14" target="15" style="edgeStyle=elbowEdgeStyle;rounded=1;"/>
+        <mxCell id="20" edge="1" parent="1" source="15" target="16" style="edgeStyle=elbowEdgeStyle;rounded=1;"/>
+        <mxCell id="21" edge="1" parent="1" source="16" target="17" style="edgeStyle=elbowEdgeStyle;rounded=1;"/>
       </root>
     </mxGraphModel>
   </diagram>
