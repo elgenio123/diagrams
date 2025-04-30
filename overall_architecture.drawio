@@ -57,23 +57,24 @@
           <mxGeometry x="230" y="-280" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="SeYlY4QXOecTnFgJ-65t-7" value="Dynamic set" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
-          <mxGeometry x="520" y="-280" width="60" height="80" as="geometry" />
+          <mxGeometry x="650" y="-280" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="SeYlY4QXOecTnFgJ-65t-9" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="230" y="-660" width="280" height="280" as="geometry" />
+          <mxGeometry x="230" y="-650" width="280" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="SeYlY4QXOecTnFgJ-65t-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.869;exitY=1.025;exitDx=0;exitDy=0;entryX=0.05;entryY=0.387;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="SeYlY4QXOecTnFgJ-65t-4" target="SeYlY4QXOecTnFgJ-65t-7">
+        <mxCell id="SeYlY4QXOecTnFgJ-65t-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.05;entryY=0.387;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SeYlY4QXOecTnFgJ-65t-4" target="SeYlY4QXOecTnFgJ-65t-7">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="380" y="-390" as="sourcePoint" />
             <mxPoint x="480" y="-290" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="420" y="-249" />
+              <mxPoint x="520" y="-410" />
+              <mxPoint x="520" y="-250" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="SeYlY4QXOecTnFgJ-65t-20" value="update training set with&lt;div&gt;variants of traffic samples&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SeYlY4QXOecTnFgJ-65t-14">
           <mxGeometry x="-0.4709" y="3" relative="1" as="geometry">
-            <mxPoint y="14" as="offset" />
+            <mxPoint y="61" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="SeYlY4QXOecTnFgJ-65t-17" value="RL agent(IDS)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
@@ -90,6 +91,21 @@
         </mxCell>
         <mxCell id="SeYlY4QXOecTnFgJ-65t-21" value="Traffic&amp;nbsp;&lt;div&gt;for training IDS&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SeYlY4QXOecTnFgJ-65t-18">
           <mxGeometry x="0.463" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SeYlY4QXOecTnFgJ-65t-23" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.669;entryY=1.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SeYlY4QXOecTnFgJ-65t-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="552.96" y="-201.04" as="sourcePoint" />
+            <mxPoint x="339.99999999999994" y="-200.00000000000003" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="-160" />
+              <mxPoint x="340" y="-160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SeYlY4QXOecTnFgJ-65t-24" value="Update RL policy with&lt;div&gt;new generated traffics&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SeYlY4QXOecTnFgJ-65t-23">
+          <mxGeometry x="0.0614" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
