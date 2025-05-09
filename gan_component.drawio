@@ -1,67 +1,64 @@
-<mxfile host="app.diagrams.net">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.2">
   <diagram name="GAN Architecture" id="GANArchitectureDiagram">
-    <mxGraphModel dx="1392" dy="711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169">
+    <mxGraphModel dx="872" dy="431" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-
-        <!-- Training Data -->
-        <mxCell id="2" value="Training Data" style="rounded=1;fillColor=#D9EAD3;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="60" y="100" width="120" height="50" as="geometry" />
+        <mxCell id="2" value="Training Data" style="rounded=1;fillColor=#D9EAD3;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="40" y="70" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="3" value="‘Real’ Samples" style="shape=document;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
+        <mxCell id="3" value="‘Real’ Samples" style="shape=document;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="220" y="100" width="120" height="80" as="geometry" />
         </mxCell>
-
-        <!-- Generator -->
-        <mxCell id="4" value="Generator, G&#10;&#10;Input: Random noise + Label&#10;Dense(128) + LeakyReLU(0.2)&#10;Dense(64) + LeakyReLU(0.2)&#10;Dense(46) + tanh&#10;Output: 46 Features" style="rounded=1;fillColor=#FFEBEE;strokeColor=#C62828;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="60" y="250" width="220" height="180" as="geometry" />
+        <mxCell id="4" value="Generator, G&#xa;&#xa;Input: Random noise + Label&#xa;Dense(128) + LeakyReLU(0.2)&#xa;Dense(64) + LeakyReLU(0.2)&#xa;Dense(46) + tanh&#xa;Output: 46 Features" style="rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="30" y="270" width="190" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="5" value="Generated ‘Fake’ Samples" style="shape=document;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
+        <mxCell id="5" value="Generated ‘Fake’ Samples" style="shape=document;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="300" y="270" width="120" height="80" as="geometry" />
         </mxCell>
-
-        <!-- Discriminator -->
-        <mxCell id="6" value="Discriminator, D&#10;&#10;Input: 46 Features + Label&#10;Dense(128) + LeakyReLU(0.2)&#10;Dense(64) + LeakyReLU(0.2)&#10;Dense(32) + LeakyReLU(0.2)&#10;Dense(1) + sigmoid&#10;Output: Real/Fake" style="rounded=1;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="460" y="160" width="230" height="220" as="geometry" />
+        <mxCell id="6" value="Discriminator, D&#xa;&#xa;Input: 46 Features + Label&#xa;Dense(128) + LeakyReLU(0.2)&#xa;Dense(64) + LeakyReLU(0.2)&#xa;Dense(32) + LeakyReLU(0.2)&#xa;Dense(1) + sigmoid&#xa;Output: Real/Fake" style="rounded=0;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="460" y="210" width="190" height="170" as="geometry" />
         </mxCell>
-
-        <!-- Arrows -->
-        <mxCell id="7" style="endArrow=block;" edge="1" parent="1" source="2" target="3">
+        <mxCell id="7" style="endArrow=block;" parent="1" source="2" target="3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8" style="endArrow=block;" edge="1" parent="1" source="4" target="5">
+        <mxCell id="8" style="endArrow=block;" parent="1" source="4" target="5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9" style="endArrow=block;" edge="1" parent="1" source="3" target="6">
+        <mxCell id="9" style="endArrow=block;" parent="1" source="3" target="6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="10" style="endArrow=block;" edge="1" parent="1" source="5" target="6">
+        <mxCell id="10" style="endArrow=block;" parent="1" source="5" target="6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-
-        <!-- Loss Arrows -->
-        <mxCell id="11" value="Discriminator Loss" style="rounded=1;fillColor=#FFF3E0;strokeColor=#FB8C00;" vertex="1" parent="1">
+        <mxCell id="11" value="Discriminator Loss" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="720" y="120" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="12" value="Generator Loss" style="rounded=1;fillColor=#F1F8E9;strokeColor=#689F38;" vertex="1" parent="1">
+        <mxCell id="12" value="Generator Loss" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="720" y="320" width="130" height="40" as="geometry" />
         </mxCell>
-
-        <mxCell id="13" style="endArrow=block;" edge="1" parent="1" source="6" target="11">
+        <mxCell id="13" style="endArrow=block;" parent="1" source="6" target="11" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="740" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="14" style="endArrow=block;" edge="1" parent="1" source="6" target="12">
+        <mxCell id="14" style="endArrow=block;" parent="1" source="6" target="12" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="740" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="15" style="endArrow=block;" edge="1" parent="1" source="12" target="4">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="15" style="endArrow=block;entryX=1.005;entryY=0.917;entryDx=0;entryDy=0;entryPerimeter=0;rounded=0;curved=0;exitX=0.6;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="12" target="4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="800" y="400" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-
+        <mxCell id="glRga6QzKIjV33MxHHAB-15" value="Backpropagation" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="15">
+          <mxGeometry x="0.3343" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
