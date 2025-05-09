@@ -1,9 +1,62 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.2">
-  <diagram name="Page-1" id="KTNA0z0QxxP0MNsDTkcA">
-    <mxGraphModel>
+<mxfile host="app.diagrams.net">
+  <diagram name="Conditional GAN Architecture" id="generator_discriminator_diagram">
+    <mxGraphModel dx="1235" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        
+        <!-- Generator Box -->
+        <mxCell id="2" value="Generator" style="swimlane;fillColor=#E3F2FD;strokeColor=#2196F3;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="260" height="360" as="geometry" />
+        </mxCell>
+        
+        <!-- Generator Layers -->
+        <mxCell id="3" value="Input: Latent Vector + Label" style="text;html=1;strokeColor=none;" vertex="1" parent="2">
+          <mxGeometry y="30" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Dense(128) + LeakyReLU(0.2)" style="text;html=1;" vertex="1" parent="2">
+          <mxGeometry y="70" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Dense(64) + LeakyReLU(0.2)" style="text;html=1;" vertex="1" parent="2">
+          <mxGeometry y="110" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Dense(46) + Tanh" style="text;html=1;" vertex="1" parent="2">
+          <mxGeometry y="150" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Output: 46 Features" style="text;html=1;fillColor=#C8E6C9;" vertex="1" parent="2">
+          <mxGeometry y="190" width="260" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- Discriminator Box -->
+        <mxCell id="8" value="Discriminator" style="swimlane;fillColor=#FFEBEE;strokeColor=#F44336;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="80" width="260" height="420" as="geometry" />
+        </mxCell>
+        
+        <!-- Discriminator Layers -->
+        <mxCell id="9" value="Input: 46 Features + Label" style="text;html=1;" vertex="1" parent="8">
+          <mxGeometry y="30" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="Dense(128) + LeakyReLU(0.2)" style="text;html=1;" vertex="1" parent="8">
+          <mxGeometry y="70" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="Dense(64) + LeakyReLU(0.2)" style="text;html=1;" vertex="1" parent="8">
+          <mxGeometry y="110" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="Dense(32) + LeakyReLU(0.2)" style="text;html=1;" vertex="1" parent="8">
+          <mxGeometry y="150" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="Dense(1) + Sigmoid" style="text;html=1;" vertex="1" parent="8">
+          <mxGeometry y="190" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="Output: Real or Fake" style="text;html=1;fillColor=#FFCDD2;" vertex="1" parent="8">
+          <mxGeometry y="230" width="260" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- Connection Arrow -->
+        <mxCell id="15" style="endArrow=block;strokeColor=#000000;" edge="1" parent="1" source="7" target="9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
       </root>
     </mxGraphModel>
   </diagram>
