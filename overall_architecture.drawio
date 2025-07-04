@@ -1,193 +1,247 @@
-<mxfile host="app.diagrams.net" modified="2025-07-03T12:00:00.000Z" agent="ChatGPT" etag="IDS-CTGAN-RL" version="27.0.6">
-  <!-- ========= PAGE 1 ========= -->
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="27.2.0" pages="2">
   <diagram id="page1" name="IDS + CTGAN Architecture">
-    <mxGraphModel dx="1400" dy="800" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1600" pageHeight="1200">
+    <mxGraphModel dx="872" dy="431" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
-        <mxCell id="0"/>
-        <mxCell id="1" parent="0"/>
-
-        <!-- ===== Module frames ===== -->
-        <mxCell id="boxIDS" value="" style="rounded=1;dashed=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="40" y="30" width="400" height="120" as="geometry"/>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="boxIDS" value="" style="rounded=1;dashed=1;fillColor=none;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="40" y="30" width="940" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="labIDS" value="IDS Module" style="text;html=1;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="50" y="10" width="100" height="20" as="geometry"/>
+        <mxCell id="labIDS" value="Offline Learning Module" style="text;html=1;fontStyle=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="50" y="10" width="100" height="20" as="geometry" />
         </mxCell>
-
-        <mxCell id="boxCTRL" value="" style="rounded=1;dashed=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="500" y="30" width="380" height="120" as="geometry"/>
+        <mxCell id="ids" value="IDS &#xa;classifier" style="rounded=1;fillColor=#ffb366;strokeColor=#d79b00;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="690" y="50" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="labCTRL" value="Controller Module" style="text;html=1;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="510" y="10" width="150" height="20" as="geometry"/>
+        <mxCell id="4" style="endArrow=block;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-
-        <mxCell id="boxCOL" value="" style="rounded=1;dashed=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="40" y="180" width="400" height="120" as="geometry"/>
+        <mxCell id="8kCb_KNf4K_WgnJwePz0-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8kCb_KNf4K_WgnJwePz0-12" target="8kCb_KNf4K_WgnJwePz0-13">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="labCOL" value="Data Collection Module" style="text;html=1;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="50" y="160" width="170" height="20" as="geometry"/>
+        <mxCell id="8kCb_KNf4K_WgnJwePz0-20" value="(z)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8kCb_KNf4K_WgnJwePz0-16">
+          <mxGeometry x="-0.1" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-
-        <mxCell id="boxSYN" value="" style="rounded=1;dashed=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="40" y="340" width="840" height="150" as="geometry"/>
+        <mxCell id="8kCb_KNf4K_WgnJwePz0-12" value="Input&#xa;Noise" style="rounded=1;fillColor=#000000;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="80" y="210" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="labSYN" value="Data Synthesizer Module" style="text;html=1;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="50" y="320" width="180" height="20" as="geometry"/>
+        <mxCell id="8kCb_KNf4K_WgnJwePz0-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8kCb_KNf4K_WgnJwePz0-13" target="8kCb_KNf4K_WgnJwePz0-14">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-
-        <!-- ===== Shapes inside modules ===== -->
-        <!-- IDS -->
-        <mxCell id="ids" value="IDS" style="rounded=1;fillColor=#ffb366;strokeColor=#d79b00;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="60" width="80" height="50" as="geometry"/>
+        <mxCell id="8kCb_KNf4K_WgnJwePz0-23" value="G(z)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8kCb_KNf4K_WgnJwePz0-21">
+          <mxGeometry x="-0.05" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-
-        <!-- Controller parts -->
-        <mxCell id="pp" value="$P_P$" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="520" y="60" width="60" height="40" as="geometry"/>
+        <mxCell id="8kCb_KNf4K_WgnJwePz0-13" value="Generator&#xa; G" style="rounded=1;fillColor=#b4a7d6;strokeColor=#674ea7;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="210" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ph" value="$P_H$" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="600" y="60" width="60" height="40" as="geometry"/>
+        <mxCell id="8kCb_KNf4K_WgnJwePz0-14" value="Fake Samples" style="rounded=1;fillColor=#ea9999;strokeColor=#990000;" vertex="1" parent="1">
+          <mxGeometry x="400" y="210" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ctrl" value="Controller" style="rounded=1;fillColor=#9ccdf3;strokeColor=#1c4587;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="680" y="60" width="160" height="50" as="geometry"/>
+        <mxCell id="8kCb_KNf4K_WgnJwePz0-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8kCb_KNf4K_WgnJwePz0-15" target="8kCb_KNf4K_WgnJwePz0-42">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-
-        <!-- Data Collector + DB -->
-        <mxCell id="collector" value="Data Collector" style="rounded=1;fillColor=#b6d7a8;strokeColor=#38761d;" vertex="1" parent="1">
-          <mxGeometry x="60" y="210" width="120" height="50" as="geometry"/>
+        <mxCell id="8kCb_KNf4K_WgnJwePz0-44" value="D(x)&lt;div&gt;D(G(z))&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8kCb_KNf4K_WgnJwePz0-43">
+          <mxGeometry x="-0.3" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="db" value="Database" style="rounded=1;fillColor=#6aa84f;strokeColor=#274e13;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="210" width="120" height="50" as="geometry"/>
+        <mxCell id="8kCb_KNf4K_WgnJwePz0-15" value="Discriminator&#xa; D" style="rounded=1;fillColor=#a4c2f4;strokeColor=#1155cc;" vertex="1" parent="1">
+          <mxGeometry x="580" y="140" width="140" height="50" as="geometry" />
         </mxCell>
-
-        <!-- Synthesizer -->
-        <mxCell id="noise" value="Noise" style="rounded=1;fillColor=#000000;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="60" y="380" width="80" height="50" as="geometry"/>
+        <mxCell id="8kCb_KNf4K_WgnJwePz0-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8kCb_KNf4K_WgnJwePz0-24" target="8kCb_KNf4K_WgnJwePz0-25">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gen" value="Generator G" style="rounded=1;fillColor=#b4a7d6;strokeColor=#674ea7;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="380" width="120" height="50" as="geometry"/>
+        <mxCell id="8kCb_KNf4K_WgnJwePz0-24" value="Traffic&lt;div&gt;Database&lt;/div&gt;" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="160" y="80" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fake" value="Fake Samples" style="rounded=1;fillColor=#ea9999;strokeColor=#990000;" vertex="1" parent="1">
-          <mxGeometry x="300" y="380" width="120" height="50" as="geometry"/>
+        <mxCell id="8kCb_KNf4K_WgnJwePz0-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8kCb_KNf4K_WgnJwePz0-25" target="8kCb_KNf4K_WgnJwePz0-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="110" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="disc" value="Discriminator D" style="rounded=1;fillColor=#a4c2f4;strokeColor=#1155cc;" vertex="1" parent="1">
-          <mxGeometry x="460" y="380" width="140" height="50" as="geometry"/>
+        <mxCell id="8kCb_KNf4K_WgnJwePz0-31" value="x" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8kCb_KNf4K_WgnJwePz0-27">
+          <mxGeometry x="0.1733" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="trainDisc" value="Train Discriminator" style="rounded=1;fillColor=#cccccc;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="620" y="380" width="140" height="40" as="geometry"/>
+        <mxCell id="8kCb_KNf4K_WgnJwePz0-25" value="Real samples" style="rounded=1;fillColor=#ea9999;strokeColor=#990000;" vertex="1" parent="1">
+          <mxGeometry x="400" y="85" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="trainGen" value="Train Generator" style="rounded=1;fillColor=#cccccc;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="620" y="430" width="140" height="40" as="geometry"/>
+        <mxCell id="8kCb_KNf4K_WgnJwePz0-30" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.414;entryY=0.92;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="8kCb_KNf4K_WgnJwePz0-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="240" as="sourcePoint" />
+            <mxPoint x="570" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="640" y="240" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="loss" value="Loss Calculation" style="rounded=1;fillColor=#dddddd;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="460" y="440" width="140" height="40" as="geometry"/>
+        <mxCell id="8kCb_KNf4K_WgnJwePz0-32" value="G(z)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8kCb_KNf4K_WgnJwePz0-30">
+          <mxGeometry x="0.1272" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-
-        <!-- ===== Arrows ===== -->
-        <mxCell style="endArrow=block;" edge="1" parent="1" source="collector" target="db">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="8kCb_KNf4K_WgnJwePz0-40" value="Train Discriminator" style="rounded=1;fillColor=#cccccc;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="700" y="210" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell style="endArrow=block;" edge="1" parent="1" source="db" target="ctgan">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="8kCb_KNf4K_WgnJwePz0-41" value="Train Generator" style="rounded=1;fillColor=#cccccc;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="700" y="280" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell style="endArrow=block;" edge="1" parent="1" source="ctgan" target="pretrainIDS">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="8kCb_KNf4K_WgnJwePz0-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8kCb_KNf4K_WgnJwePz0-42" target="8kCb_KNf4K_WgnJwePz0-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="880" y="300" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell style="endArrow=block;dashed=1;" edge="1" parent="1" source="db" target="ids">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="8kCb_KNf4K_WgnJwePz0-42" value="Loss Calculation" style="rounded=1;fillColor=#dddddd;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="780" y="145" width="140" height="40" as="geometry" />
         </mxCell>
-
-        <mxCell style="endArrow=block;" edge="1" parent="1" source="noise" target="gen">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="8kCb_KNf4K_WgnJwePz0-47" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="ids">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="110" as="sourcePoint" />
+            <mxPoint x="690" y="60" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="640" y="80" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell style="endArrow=block;" edge="1" parent="1" source="gen" target="fake">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="8kCb_KNf4K_WgnJwePz0-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8kCb_KNf4K_WgnJwePz0-48" target="ids">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell style="endArrow=block;" edge="1" parent="1" source="fake" target="disc">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="8kCb_KNf4K_WgnJwePz0-48" value="Pretrained IDS" style="rounded=1;fillColor=#ffb366;strokeColor=#d79b00;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="50" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell style="endArrow=block;" edge="1" parent="1" source="disc" target="loss">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="8kCb_KNf4K_WgnJwePz0-50" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.442;entryY=0.94;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="8kCb_KNf4K_WgnJwePz0-41" target="8kCb_KNf4K_WgnJwePz0-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="310" as="sourcePoint" />
+            <mxPoint x="610" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="283" y="310" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell style="endArrow=block;" edge="1" parent="1" source="loss" target="trainDisc">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="8kCb_KNf4K_WgnJwePz0-51" value="Weight Update" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8kCb_KNf4K_WgnJwePz0-50">
+          <mxGeometry x="-0.417" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell style="endArrow=block;" edge="1" parent="1" source="loss" target="trainGen">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="8kCb_KNf4K_WgnJwePz0-52" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.571;entryY=0.96;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="8kCb_KNf4K_WgnJwePz0-40" target="8kCb_KNf4K_WgnJwePz0-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="260" as="sourcePoint" />
+            <mxPoint x="690" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8kCb_KNf4K_WgnJwePz0-54" value="Weight&lt;div&gt;Update&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8kCb_KNf4K_WgnJwePz0-52">
+          <mxGeometry x="0.2927" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8kCb_KNf4K_WgnJwePz0-55" value="Generator&#xa; G" style="rounded=1;fillColor=#b4a7d6;strokeColor=#674ea7;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="430" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8kCb_KNf4K_WgnJwePz0-56" value="" style="rounded=1;dashed=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="370" width="940" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="8kCb_KNf4K_WgnJwePz0-57" value="Online Training Module" style="text;html=1;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50" y="340" width="100" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
-
-  <!-- ========= PAGE 2 ========= -->
   <diagram id="page2" name="Detection Pipeline">
     <mxGraphModel dx="1400" dy="800" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1600" pageHeight="1200">
       <root>
-        <mxCell id="0"/>
-        <mxCell id="1" parent="0"/>
-
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
         <!-- Top GAN pipeline -->
         <mxCell id="noiseT" value="Input Noise" style="rounded=1;fillColor=#000000;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="40" y="40" width="100" height="40" as="geometry"/>
+          <mxGeometry x="40" y="40" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ioti" value="IoTI" style="rounded=1;fillColor=#b6d7a8;strokeColor=#38761d;" vertex="1" parent="1">
-          <mxGeometry x="160" y="40" width="100" height="40" as="geometry"/>
+          <mxGeometry x="160" y="40" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ddgan" value="DD-GAN" style="rounded=1;fillColor=#b4a7d6;strokeColor=#674ea7;" vertex="1" parent="1">
-          <mxGeometry x="280" y="40" width="100" height="40" as="geometry"/>
+          <mxGeometry x="280" y="40" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="iotn" value="IoTn" style="rounded=1;fillColor=#b6d7a8;strokeColor=#38761d;" vertex="1" parent="1">
-          <mxGeometry x="400" y="40" width="100" height="40" as="geometry"/>
+          <mxGeometry x="400" y="40" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="fakeT" value="Fake Samples" style="rounded=1;fillColor=#ea9999;strokeColor=#990000;" vertex="1" parent="1">
-          <mxGeometry x="40" y="100" width="120" height="40" as="geometry"/>
+          <mxGeometry x="40" y="100" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="discT" value="Discriminator" style="rounded=1;fillColor=#a4c2f4;strokeColor=#1155cc;" vertex="1" parent="1">
-          <mxGeometry x="180" y="100" width="120" height="40" as="geometry"/>
+          <mxGeometry x="180" y="100" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="trainDiscT" value="Train Discriminator" style="rounded=1;fillColor=#6d9eeb;strokeColor=#1155cc;" vertex="1" parent="1">
-          <mxGeometry x="320" y="100" width="150" height="40" as="geometry"/>
+          <mxGeometry x="320" y="100" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="trainGenT" value="Train Generator" style="rounded=1;fillColor=#6d9eeb;strokeColor=#1155cc;" vertex="1" parent="1">
-          <mxGeometry x="320" y="150" width="150" height="40" as="geometry"/>
+          <mxGeometry x="320" y="150" width="150" height="40" as="geometry" />
         </mxCell>
-
         <!-- HAR Dataset -->
         <mxCell id="har" value="HAR Dataset" style="shape=datastore;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="40" y="220" width="100" height="60" as="geometry"/>
+          <mxGeometry x="40" y="220" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="controller" value="Controller" style="rounded=1;fillColor=#ff6666;strokeColor=#990000;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="160" y="240" width="100" height="40" as="geometry"/>
+          <mxGeometry x="160" y="240" width="100" height="40" as="geometry" />
         </mxCell>
-
         <!-- Pre-processing -->
         <mxCell id="smote" value="Data Pre-Processing\\nusing SMOTE" style="rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="300" y="220" width="200" height="60" as="geometry"/>
+          <mxGeometry x="300" y="220" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="featExt" value="Feature Extraction\\nusing MPCA" style="rounded=1;fillColor=#d5e8d4;strokeColor=#38761d;" vertex="1" parent="1">
-          <mxGeometry x="300" y="300" width="200" height="60" as="geometry"/>
+          <mxGeometry x="300" y="300" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="featSel" value="Feature Selection\\nusing IFFO" style="rounded=1;fillColor=#d5e8d4;strokeColor=#38761d;" vertex="1" parent="1">
-          <mxGeometry x="300" y="380" width="200" height="60" as="geometry"/>
+          <mxGeometry x="300" y="380" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="detect" value="Detection\\nHDLCNN+ANFIS" style="rounded=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="460" width="200" height="60" as="geometry"/>
+          <mxGeometry x="300" y="460" width="200" height="60" as="geometry" />
         </mxCell>
-
         <!-- Arrows -->
-        <mxCell style="endArrow=block;" edge="1" parent="1" source="noiseT" target="ioti"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell style="endArrow=block;" edge="1" parent="1" source="ioti" target="ddgan"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell style="endArrow=block;" edge="1" parent="1" source="ddgan" target="iotn"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell style="endArrow=block;" edge="1" parent="1" source="iotn" target="fakeT"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell style="endArrow=block;" edge="1" parent="1" source="fakeT" target="discT"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell style="endArrow=block;" edge="1" parent="1" source="discT" target="trainDiscT"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell style="endArrow=block;" edge="1" parent="1" source="trainDiscT" target="trainGenT"><mxGeometry relative="1" as="geometry"/></mxCell>
-
-        <mxCell style="endArrow=block;" edge="1" parent="1" source="har" target="smote"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell style="endArrow=block;" edge="1" parent="1" source="smote" target="featExt"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell style="endArrow=block;" edge="1" parent="1" source="featExt" target="featSel"><mxGeometry relative="1" as="geometry"/></mxCell>
-        <mxCell style="endArrow=block;" edge="1" parent="1" source="featSel" target="detect"><mxGeometry relative="1" as="geometry"/></mxCell>
-
+        <mxCell style="endArrow=block;" edge="1" parent="1" source="noiseT" target="ioti">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell style="endArrow=block;" edge="1" parent="1" source="ioti" target="ddgan">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell style="endArrow=block;" edge="1" parent="1" source="ddgan" target="iotn">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell style="endArrow=block;" edge="1" parent="1" source="iotn" target="fakeT">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell style="endArrow=block;" edge="1" parent="1" source="fakeT" target="discT">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell style="endArrow=block;" edge="1" parent="1" source="discT" target="trainDiscT">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell style="endArrow=block;" edge="1" parent="1" source="trainDiscT" target="trainGenT">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell style="endArrow=block;" edge="1" parent="1" source="har" target="smote">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell style="endArrow=block;" edge="1" parent="1" source="smote" target="featExt">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell style="endArrow=block;" edge="1" parent="1" source="featExt" target="featSel">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell style="endArrow=block;" edge="1" parent="1" source="featSel" target="detect">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
