@@ -164,7 +164,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="300" y="460" />
-              <mxPoint x="190" y="460" />
+              <mxPoint x="185" y="460" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -191,20 +191,25 @@
         <mxCell id="t3-W-BU6V8NNKBP7q3ZB-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="t3-W-BU6V8NNKBP7q3ZB-11" target="t3-W-BU6V8NNKBP7q3ZB-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="t3-W-BU6V8NNKBP7q3ZB-24" value="&lt;b&gt;Request for action&lt;/b&gt;&lt;div&gt;&lt;b&gt;to be taken&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;(adapt or freeze weights)&lt;/b&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="t3-W-BU6V8NNKBP7q3ZB-18">
+        <mxCell id="t3-W-BU6V8NNKBP7q3ZB-24" value="&lt;b&gt;Request action&lt;/b&gt;&lt;div&gt;&lt;b&gt;(adapt or freeze weights)&lt;/b&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="t3-W-BU6V8NNKBP7q3ZB-18">
           <mxGeometry x="0.072" y="2" relative="1" as="geometry">
-            <mxPoint x="-2" y="22" as="offset" />
+            <mxPoint x="-40" y="5" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="t3-W-BU6V8NNKBP7q3ZB-11" value="Adaptive IDS &#xa;classifier" style="rounded=1;fillColor=#ffb366;strokeColor=#d79b00;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="470" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="t3-W-BU6V8NNKBP7q3ZB-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="t3-W-BU6V8NNKBP7q3ZB-13" target="t3-W-BU6V8NNKBP7q3ZB-11">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="t3-W-BU6V8NNKBP7q3ZB-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.875;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="t3-W-BU6V8NNKBP7q3ZB-13" target="t3-W-BU6V8NNKBP7q3ZB-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="855" y="460" />
+              <mxPoint x="855" y="460" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="t3-W-BU6V8NNKBP7q3ZB-23" value="&lt;b&gt;Trace of recent&lt;/b&gt;&lt;div&gt;&lt;b&gt;classifications&lt;/b&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="t3-W-BU6V8NNKBP7q3ZB-17">
           <mxGeometry x="0.1059" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="5" y="-56" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="t3-W-BU6V8NNKBP7q3ZB-13" value="Sliding WIndow" style="rounded=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
