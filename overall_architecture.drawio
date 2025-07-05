@@ -8,9 +8,9 @@
           <mxGeometry x="40" y="30" width="940" height="300" as="geometry" />
         </mxCell>
         <mxCell id="labIDS" value="Offline Learning Module" style="text;html=1;fontStyle=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
-          <mxGeometry x="50" y="10" width="100" height="20" as="geometry" />
+          <mxGeometry x="60" y="30" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="ids" value="IDS &#xa;classifier" style="rounded=1;fillColor=#ffb366;strokeColor=#d79b00;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="ids" value="Adaptive IDS &#xa;classifier" style="rounded=1;fillColor=#ffb366;strokeColor=#d79b00;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="690" y="50" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="4" style="endArrow=block;" parent="1" edge="1">
@@ -146,11 +146,70 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="t3-W-BU6V8NNKBP7q3ZB-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="t3-W-BU6V8NNKBP7q3ZB-4" target="t3-W-BU6V8NNKBP7q3ZB-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t3-W-BU6V8NNKBP7q3ZB-4" value="Trained Discriminator" style="rounded=1;fillColor=#cccccc;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="50" y="400" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t3-W-BU6V8NNKBP7q3ZB-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="t3-W-BU6V8NNKBP7q3ZB-5" target="t3-W-BU6V8NNKBP7q3ZB-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="460" />
+              <mxPoint x="190" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t3-W-BU6V8NNKBP7q3ZB-5" value="Trained Generator" style="rounded=1;fillColor=#cccccc;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="230" y="400" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t3-W-BU6V8NNKBP7q3ZB-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="t3-W-BU6V8NNKBP7q3ZB-6" target="t3-W-BU6V8NNKBP7q3ZB-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t3-W-BU6V8NNKBP7q3ZB-6" value="CTGAN" style="rounded=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="130" y="470" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="t3-W-BU6V8NNKBP7q3ZB-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="t3-W-BU6V8NNKBP7q3ZB-9" target="t3-W-BU6V8NNKBP7q3ZB-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t3-W-BU6V8NNKBP7q3ZB-9" value="Stream of&#xa;Fake Samples" style="rounded=1;fillColor=#ea9999;strokeColor=#990000;" vertex="1" parent="1">
+          <mxGeometry x="360" y="470" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="t3-W-BU6V8NNKBP7q3ZB-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="t3-W-BU6V8NNKBP7q3ZB-11" target="t3-W-BU6V8NNKBP7q3ZB-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t3-W-BU6V8NNKBP7q3ZB-11" value="Adaptive IDS &#xa;classifier" style="rounded=1;fillColor=#ffb366;strokeColor=#d79b00;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="470" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="t3-W-BU6V8NNKBP7q3ZB-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="t3-W-BU6V8NNKBP7q3ZB-13" target="t3-W-BU6V8NNKBP7q3ZB-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t3-W-BU6V8NNKBP7q3ZB-13" value="Sliding WIndow" style="rounded=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="680" y="370" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="t3-W-BU6V8NNKBP7q3ZB-14" value="RL agent" style="rounded=1;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="700" y="540" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="t3-W-BU6V8NNKBP7q3ZB-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.375;entryY=1.04;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="t3-W-BU6V8NNKBP7q3ZB-14" target="t3-W-BU6V8NNKBP7q3ZB-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="600" as="sourcePoint" />
+            <mxPoint x="540" y="550" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="605" y="565" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t3-W-BU6V8NNKBP7q3ZB-20" value="" style="rounded=1;dashed=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="345" width="940" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="t3-W-BU6V8NNKBP7q3ZB-21" value="Online Learning Module" style="text;html=1;fontStyle=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="345" width="100" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="page3" name="Online Learning Module">
-    <mxGraphModel dx="1585" dy="1984" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" value="Adapt / Freeze" style="edgeLabel;html=1;" vertex="1" connectable="0">
           <mxGeometry x="-0.25" y="-1" relative="1" as="geometry" />
