@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="27.2.0" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="27.2.0">
   <diagram id="page1" name="IDS + CTGAN Architecture">
     <mxGraphModel dx="872" dy="431" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -236,16 +236,6 @@
             <mxPoint x="930" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="page3" name="Online Learning Module">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
-      <root>
-        <mxCell id="0" value="Adapt / Freeze" style="edgeLabel;html=1;" vertex="1" connectable="0">
-          <mxGeometry x="-0.25" y="-1" relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
