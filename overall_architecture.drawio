@@ -236,4 +236,78 @@
       </root>
     </mxGraphModel>
   </diagram>
+  <!-- ---------- PAGE 2 : NEW Online Learning Module  ---------- -->
+  <diagram id="page2" name="Online Learning Module">
+    <mxGraphModel dx="1200" dy="600" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1600" pageHeight="1200">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- dashed container -->
+        <mxCell id="boxOnline" value="" style="rounded=1;dashed=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="940" height="260" as="geometry"/>
+        </mxCell>
+        <mxCell id="labOnline" value="Online Learning / Adaptation Module"
+                style="text;fontStyle=1;html=1;strokeColor=none;fillColor=none;"
+                vertex="1" parent="1">
+          <mxGeometry x="50" y="20" width="250" height="20" as="geometry"/>
+        </mxCell>
+
+        <!-- CTGAN generator -->
+        <mxCell id="ctganOn" value="CTGAN Generator"
+                style="rounded=1;fillColor=#b4a7d6;strokeColor=#674ea7;fontStyle=1;"
+                vertex="1" parent="1">
+          <mxGeometry x="80" y="110" width="160" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- IDS classifier -->
+        <mxCell id="idsOn" value="IDS Classifier"
+                style="rounded=1;fillColor=#ffb366;strokeColor=#d79b00;fontStyle=1;"
+                vertex="1" parent="1">
+          <mxGeometry x="320" y="110" width="160" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Accuracy window -->
+        <mxCell id="accWin" value="Rolling Accuracy Window"
+                style="rounded=1;fillColor=#a4c2f4;strokeColor=#1155cc;"
+                vertex="1" parent="1">
+          <mxGeometry x="560" y="50" width="180" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Q-network -->
+        <mxCell id="qnetOn" value="Q Network (Adapt / Freeze)"
+                style="rounded=1;fillColor=#cccccc;strokeColor=#666666;"
+                vertex="1" parent="1">
+          <mxGeometry x="560" y="170" width="180" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- ===== arrows ===== -->
+        <!-- CTGAN -> IDS -->
+        <mxCell style="endArrow=block;" edge="1" parent="1" source="ctganOn" target="idsOn">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell value="Synthetic Stream" style="edgeLabel;html=1;" vertex="1" connectable="0" parent="2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- IDS -> accuracy window -->
+        <mxCell style="endArrow=block;" edge="1" parent="1" source="idsOn" target="accWin">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- accuracy window -> Q-net -->
+        <mxCell style="endArrow=block;" edge="1" parent="1" source="accWin" target="qnetOn">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Q-net -> IDS (adapt/freeze) -->
+        <mxCell style="endArrow=classic;" edge="1" parent="1" source="qnetOn" target="idsOn">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell value="Adapt / Freeze" style="edgeLabel;html=1;" vertex="1" connectable="0" parent="5">
+          <mxGeometry x="-0.25" y="-1" relative="1" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
 </mxfile>
