@@ -76,12 +76,12 @@
         <mxCell id="8kCb_KNf4K_WgnJwePz0-25" value="Real samples" style="rounded=1;fillColor=#ea9999;strokeColor=#990000;" parent="1" vertex="1">
           <mxGeometry x="400" y="85" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="8kCb_KNf4K_WgnJwePz0-30" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.414;entryY=0.92;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="8kCb_KNf4K_WgnJwePz0-15" edge="1">
+        <mxCell id="8kCb_KNf4K_WgnJwePz0-30" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.164;entryY=1.02;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="8kCb_KNf4K_WgnJwePz0-15" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="520" y="240" as="sourcePoint" />
             <mxPoint x="570" y="190" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="640" y="240" />
+              <mxPoint x="603" y="240" />
             </Array>
           </mxGeometry>
         </mxCell>
